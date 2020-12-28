@@ -8,3 +8,4 @@ export 'src/auth_credential/phone_auth_credential.dart';
 export 'src/auth_credential/phone_with_pwd_credential.dart';
 export 'src/auth_credential/user_register_credential.dart';
 export 'src/auth_credential/usr_auth_credential.dart';
+export 'src/auth_credential/auth_credential.dart';

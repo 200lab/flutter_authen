@@ -1,5 +1,4 @@
-import 'package:flutter_authen/src/models/simple_user.dart';
-
+import '../models/simple_user.dart';
 import 'auth_credential.dart';
 
 class UserRegisterCredential extends AuthCredential{

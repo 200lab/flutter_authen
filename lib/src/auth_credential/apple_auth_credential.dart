@@ -1,8 +1,7 @@
-import 'package:flutter/foundation.dart';
 import 'auth_credential.dart';
 
 class AppleAuthCredential extends AuthCredential{
-  const AppleAuthCredential({@required this.accessToken}) :super('/auth/apple');
+  const AppleAuthCredential({this.accessToken}) :super('/auth/apple');
 
   @override
   Map<String, String> asMap() {

@@ -1,6 +1,7 @@
-import 'package:flutter_authen/src/auth_credential/auth_credential.dart';
-import 'package:flutter_authen/src/auth_credential/user_register_credential.dart';
-import 'package:flutter_authen/src/models/simple_user.dart';
+
+import '../auth_credential/auth_credential.dart';
+import '../auth_credential/user_register_credential.dart';
+import '../models/simple_user.dart';
 
 class UserRegisterProvider {
   static AuthCredential getCredential({SimpleUser user}) {

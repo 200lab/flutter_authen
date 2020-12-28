@@ -1,3 +1,3 @@
-## [0.0.2] - TODO: Add release date.
+## [0.0.7] - 28/12/2020
 
-* TODO: Describe initial release.
+*Fix SDK and fix path

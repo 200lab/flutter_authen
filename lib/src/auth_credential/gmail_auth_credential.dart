@@ -1,9 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'auth_credential.dart';
 
 /// An [AuthCredential] for authenticating via facebook.com.
 class GmailAuthCredential extends AuthCredential{
-  const GmailAuthCredential({@required this.accessToken}) :super(_url);
+  const GmailAuthCredential({this.accessToken}) :super(_url);
 
   static const String _url = '/auth/gmail';
 
