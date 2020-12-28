@@ -4,8 +4,9 @@ import 'package:flutter_authen/src/auth_credential/phone_auth_credential.dart';
 
 class PhoneAuthProvider{
   static AuthCredential getCredential({
-    String verificationID
+    String phone,
+    String code
   }) {
-    return PhoneAuthCredential(verifiedOTP: verificationID);
+    return PhoneAuthCredential(phone: phone,code:code);
   }
 }
