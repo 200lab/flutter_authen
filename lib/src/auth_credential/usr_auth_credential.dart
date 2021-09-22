@@ -6,14 +6,14 @@ class UserAuthCredential extends AuthCredential {
   static const String _url = '/auth';
 
   @override
-  Map<String, String> asMap() {
+  Map<String, String?> asMap() {
     return {
       'username': usrName,
       'password': pwd,
     };
   }
 
-  final String usrName;
+  final String? usrName;
 
-  final String pwd;
+  final String? pwd;
 }

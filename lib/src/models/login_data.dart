@@ -1,10 +1,10 @@
 class LoginData {
-  final String accessToken;
-  final String refreshToken;
-  final String oauthId;
-  final int expiresIn;
-  final bool isNew;
-  final bool hasUsernamePassword;
+  final String? accessToken;
+  final String? refreshToken;
+  final String? oauthId;
+  final int? expiresIn;
+  final bool? isNew;
+  final bool? hasUsernamePassword;
 
   LoginData({
     this.accessToken,

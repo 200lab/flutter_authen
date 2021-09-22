@@ -6,14 +6,14 @@ class PhoneWithPwdAuthCredential extends AuthCredential {
   static const String _url = '/auth';
 
   @override
-  Map<String, String> asMap() {
+  Map<String, String?> asMap() {
     return {
       'phone': phone,
       'password': pwd,
     };
   }
 
-  final String phone;
+  final String? phone;
 
-  final String pwd;
+  final String? pwd;
 }

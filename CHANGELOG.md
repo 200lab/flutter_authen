@@ -1,3 +1,3 @@
-## [0.0.7] - 28/12/2020
+## [0.0.8] - 22/09/2021
 
-*Fix SDK and fix path
+*Migrate to Null Safety

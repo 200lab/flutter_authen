@@ -1,6 +1,5 @@
 library flutter_authen_credential;
 
-
 export 'src/auth_credential/apple_auth_credential.dart';
 export 'src/auth_credential/fb_auth_credential.dart';
 export 'src/auth_credential/gmail_auth_credential.dart';
